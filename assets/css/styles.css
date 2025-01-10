@@ -136,7 +136,7 @@ nav {
   }
 
   nav .menu-btn i {
-    color: #1e90ff;
+    color: #FDB813;
     font-size: 2rem;
     cursor: pointer;
     display: none;
@@ -148,7 +148,7 @@ nav {
   
   .navimg i {
     visibility: hidden;
-    color: #1e90ff;
+    color: #FDB813;
   }
 
   @media (max-width: 1520px) {
@@ -166,7 +166,7 @@ nav {
       position: fixed;
       top: 4.5rem;
       left: -100%;
-      background: #1e90ff;
+      background: #FDB813;
       height: 100vh;
       width: 100%;
       text-align: left;
@@ -233,7 +233,7 @@ nav {
   }
 
   .footer-sectionlinks b {
-    color: #1e90ff;
+    color: #FDB813;
   }
 
   .footer-sectionlinks a {
@@ -275,7 +275,7 @@ nav {
 
   .footer-bottomlinks .footer-sociallinks i {
     font-size: 2rem;
-    color: #1e90ff;
+    color: #FDB813;
   }
 
   @media screen and (max-width: 450px) {
@@ -408,7 +408,7 @@ nav {
 .bodytext-header {
   font-size: 3rem;
   font-family: 'Bebas Neue';
-  color: #1e90ff;
+  color: #FDB813;
   letter-spacing: 0.1rem;
   text-align: center !important;
 }
@@ -443,8 +443,8 @@ nav {
   padding: 0.5rem 2rem;
   min-width: 12rem;
   text-align: center;
-  border: #1e90ff solid 2px;
-  color: #1e90ff;
+  border: #FDB813 solid 2px;
+  color: #FDB813;
   text-decoration: none;
   border-radius: 0.3rem;
   transition: 0.2s;
@@ -455,7 +455,7 @@ nav {
 }
 
 .custom-section a:not(.header2-links a):hover {
-  background: #1e90ff;
+  background: #FDB813;
   color: white;
 }
 
@@ -495,9 +495,9 @@ nav {
 }
 
 /* Image Grid/Recent Work */
-.recent-work-header {
+.card-header {
   font-size: 3rem;
-  color: #1e90ff;
+  color: #FDB813;
   margin: auto;
   width: fit-content;
 }
@@ -696,7 +696,7 @@ nav {
   text-transform: capitalize;
   margin-top: 25px;
   margin-bottom: 45px;
-  border-bottom: 5px solid #1e90ff ;
+  border-bottom: 5px solid #FDB813 ;
   padding-bottom: 10px;
   letter-spacing: 3px;
 }
@@ -824,8 +824,8 @@ nav {
   padding: 0.5rem 2rem;
   min-width: 12rem;
   text-align: center;
-  border: #1e90ff solid 2px;
-  color: #1e90ff;
+  border: #FDB813 solid 2px;
+  color: #FDB813;
   text-decoration: none;
   border-radius: 0.3rem;
   transition: 0.2s;
@@ -837,7 +837,7 @@ nav {
 }
 
 .write-a-review:hover {
-  background: #1e90ff;
+  background: #FDB813;
   color: white;
 }
 
@@ -878,7 +878,7 @@ nav {
 .header2-h1 {
   text-align: center;
   font-size: 3rem;
-  color: #1e90ff
+  color: #FDB813
 }
 
 .header2-links {
@@ -892,9 +892,9 @@ nav {
 }
 
 .header2-links a {
-  color: #1e90ff;
+  color: #FDB813;
   background-color: black;
-  outline: #1e90ff solid 2px;
+  outline: #FDB813 solid 2px;
   padding: 0.5rem 2rem;
   text-decoration: none;
   border-radius: 0.2rem;
