@@ -1,3 +1,4 @@
+/* Fonts - Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -5,8 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+/* Fonts - 1001 Free Fonts */
 @font-face {
-  font-family: TaxiCab-Bold;
+  font-family: 'TaxiCab-Bold';
   src: url(TaxiCab-Bold.ttf);
 }
 
@@ -30,7 +32,7 @@ html {
 main {
   padding-top: 0vh;
   min-height: 27.2vh;
-  font-family: 'bebas neue';
+  font-family: 'TaxiCab-Bold';
 }
 
 main {
@@ -101,10 +103,10 @@ nav {
   }
 
   .brand a {
-    font-size: 2rem;
+    font-size: 24pt;
     color: white;
     text-decoration: none; text-align:center;
-    font-family: 'Bebas Neue';
+    font-family: 'TaxiCab-Bold';
     padding: 0 1rem;
   }
 
@@ -113,7 +115,7 @@ nav {
       height: 3.5rem;
     }
     .brand a {
-      font-size: 1.5rem;
+      font-size: 18pt;
     }
   }
 
@@ -134,7 +136,8 @@ nav {
     color: #ffffff;
     background: #ffffff46;
     text-decoration: none;
-    font-size: 0.85rem;
+    font-family: 'TaxiCab-Bold';
+    font-size: 10.5pt;
     font-weight: 500;
     padding: 0.7rem 1rem;
     border-radius: 5px;
@@ -148,7 +151,8 @@ nav {
 
   nav .menu-btn i {
     color: #FDB813;
-    font-size: 2rem;
+    font-family: 'TaxiCab-Bold';
+    font-size: 24pt;
     cursor: pointer;
     display: none;
   }
@@ -205,7 +209,8 @@ nav {
       margin-left: -100%;
       background-color:transparent ;
       display: block;
-      font-size: 1rem !important;
+      font-size: 12pt !important;
+      font-family: 'TaxiCab-Bold';
     }
 
     #click:checked ~ ul li a {
@@ -283,13 +288,13 @@ nav {
   }
 
   .footer-bottomlinks .footer-sociallinks i {
-    font-size: 2rem;
+    font-size: 24pt;
     color: #FDB813;
   }
 
   @media screen and (max-width: 450px) {
     .footer-sectionlinks a {
-      font-size: 0.9rem;
+      font-size: 11pt;
     }
   }
 
@@ -305,17 +310,17 @@ nav {
   }
 
   .footer-profile a {
-    font-family: 'bebas neue';
+    font-family: 'TaxiCab-Bold';
     color: white;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 24pt;
   }
 
   /* Header-Cover Photo */
   header {
     width: 100%;
     height: 85vh;
-    background-image: url();
+    /* background-image: url(); */
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -332,20 +337,20 @@ nav {
   }
 
   header h1 {
-    font-size: 48pt;
-    font-family: TaxiCab-Bold;
-    color: pink
+    font-size: 26pt;
+    font-family: 'TaxiCab-Bold';
+    color:black
   }
 
   @media screen and (max-width: 761px),
   screen and (max-height: 500px) {
     .header-content h1 {
-      font-size: 2.1rem;
+      font-size: 18pt;
     }
   }
 
   header p {
-    font-size: 1.5rem;
+    font-size: 16pt;
   }
 
   header .links {
@@ -364,7 +369,7 @@ nav {
     border-radius: 0.2rem;
     font-family: 'Montserrat';
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 12pt;
     font-weight: 700;
   }
 
@@ -388,13 +393,13 @@ nav {
     }
     
     header h1 {
-      font-size: 3rem;
+      font-size: 36pt;
       text-align: center;
       width: 100%;
     }
     
     header p {
-      font-size: 1rem !important;
+      font-size: 12pt !important;
       text-align: center;
       width: 100%;
     }
@@ -414,17 +419,17 @@ nav {
 }
 
 .bodytext-header {
-  font-size: 3rem;
-  font-family: 'Bebas Neue';
+  font-size: 36pt;
+  font-family: 'TaxiCab-Bold';
   color: #FDB813;
   letter-spacing: 0.1rem;
   text-align: center !important;
 }
 
 .custom-section span {
-  font-size: 1.2rem;
+  font-size: 14pt;
   line-height: 3rem;
-  font-family: 'Montserrat';
+  font-family: 'TaxiCab-Bold';
 }
 
 .custom-section h1 {
@@ -455,9 +460,9 @@ nav {
   color: #FDB813;
   text-decoration: none;
   border-radius: 0.3rem;
-  font-family: 'Montserrat';
+  font-family: 'TaxiCab-Bold';
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 12pt;
   font-weight: 700;
 }
 
@@ -479,7 +484,7 @@ nav {
 
 @media screen and (max-width: 521px) {
   .custom-section h1, .recent-work-header {
-    font-size: 2.3rem !important;
+    font-size: 20pt !important;
   }
   .custom-section {
     width: 80%;
@@ -497,13 +502,13 @@ nav {
     width: 95%;
   }
   .custom-section span {
-    font-size: 0.9rem !important;
+    font-size: 10pt !important;
   }
 }
 
 /* Image Grid */
 .card-header {
-  font-size: 3rem;
+  font-size: 36pt;
   color: #FDB813;
   margin: auto;
   width: fit-content;
@@ -692,12 +697,12 @@ nav {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 18pt;
   padding: 0.5rem;
 }
 
 .title h1 {
-  font-size: 3rem;
+  font-size: 36pt;
   margin: auto;
   width: fit-content;
   text-transform: capitalize;
@@ -710,7 +715,7 @@ nav {
 
 @media screen and (max-width: 521px) {
   .title h1 {
-    font-size: 2.3rem;
+    font-size: 14pt;
   }
 }
 
@@ -759,7 +764,7 @@ nav {
 }
 
 #star {
-  font-size: 1.5rem;
+  font-size: 18pt;
   color: gold;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -770,7 +775,7 @@ nav {
   margin: auto;
   width: 80%;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 18pt;
 }
 
 .button-container {
@@ -820,7 +825,7 @@ nav {
   color: black;
   border: 2px solid #1e78f7;
   background-color: #5a98ee;
-  font-size: 12.5px;
+  font-size: 9.5pt;
 }
 
 #loc {
@@ -836,9 +841,9 @@ nav {
   text-decoration: none;
   border-radius: 0.3rem;
   font-style: italic;
-  font-family: 'Montserrat';
+  font-family: 'TaxtCab-Bold';
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 12pt;
   font-weight: 700;
 }
 
@@ -876,14 +881,14 @@ nav {
   display: auto;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Open Sans";
+  font-family: 'TaxiCab-Bold';
   font-size: 16pt;
   font-weight: 700;
 }
 
 .header2-h1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 36pt;
   color: #FDB813
 }
 
@@ -904,9 +909,9 @@ nav {
   padding: 0.5rem 2rem;
   text-decoration: none;
   border-radius: 0.2rem;
-  font-family: 'Montserrat';
+  font-family: 'TaxiCab-Bold';
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 12pt;
   font-weight: 700;
   width: fit-content;
   text-align: center;
@@ -924,13 +929,13 @@ nav {
   }
 
   .header2-h1 {
-    font-size: 2.3rem;
+    font-size: 22pt;
     text-align: center;
     width: 100%;
   }
 
   .header2 p {
-    font-size: 1rem !important;
+    font-size: 16.5pt !important;
     text-align: center;
     width: 100%;
   }
