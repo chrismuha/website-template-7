@@ -104,7 +104,7 @@ nav {
   .brand a {
     font-size: 24pt;
     color: white;
-    text-decoration: none; text-align:center;
+    text-decoration: none; text-align: center;
     font-family: 'TaxiCab-Bold';
     padding: 0 1rem;
   }
@@ -149,7 +149,7 @@ nav {
   }
 
   nav .menu-btn i {
-    color: #FDB813;
+    color: white;
     font-size: 24pt;
     cursor: pointer;
     display: none;
@@ -219,6 +219,10 @@ nav {
       color: black;
       background-color: transparent;
     }
+    
+    body.menu-open {
+      overflow: hidden;
+  }  
   }
 
 /* Footer */
