@@ -74,7 +74,6 @@ main {
 .navbar {
     background-color: #FDB813;
     position: relative;
-
 }
 
 /* Navbar Menu */
@@ -151,7 +150,6 @@ nav {
 
   nav .menu-btn i {
     color: #FDB813;
-    font-family: 'TaxiCab-Bold';
     font-size: 24pt;
     cursor: pointer;
     display: none;
