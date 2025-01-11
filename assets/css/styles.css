@@ -22,7 +22,7 @@
 
 body {
   overflow-x: hidden !important;
-  font-family: 'Poppins';
+  font-family: 'TaxiCab-Bold';
 }
 
 html {
@@ -584,7 +584,7 @@ footer {
   height: fit-content;
   display: grid;
   place-items: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "TaxiCab-Bold";
   font-weight: 400;
   letter-spacing: 0.5px;
 }
